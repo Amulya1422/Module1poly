@@ -19,10 +19,10 @@ Prequisites; generate 5 item collection using Dalle2 or midjourney or using Genc
 1. First clone this project.
 2. For this project I have used sepolia testnet and Mumbai Testnet. In order to execute properly you need have to test ethers you can get in your account from here: https://sepoliafaucet.com/
 3. Then keep your private key which has test ethers in your hardhat config.
-4. Now run this command `npx hardhat run scripts/deploy.js --network sepolia`.
+4. Now run this command `npx hardhat run scripts/deploy.js --network goerli`.
 5. Once the above command is runned successfully copy the deployed contract address and paste it in the batchMint.js file and approvedDeposit.js file.
-6. And now run this in your terminal `npx hardhat run scripts/batchMint.js --network sepolia`.
-7. Finally run this command `npx hardhat run scripts/approvedDeposit.js --network sepolia`.
+6. And now run this in your terminal `npx hardhat run scripts/batchMint.js --network goerli`.
+7. Finally run this command `npx hardhat run scripts/approvedDeposit.js --network goerli`.
 8. That's it if you executed all the commands successfully you will get a output stating mumbai test net balance for the nubmer of NFT's received from sepolia test net.
 
 ## Authors
